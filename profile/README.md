@@ -8,7 +8,7 @@ This organization contains two main repositories, each serving a distinct yet in
 
 ## Repositories
 
-### 1. **TF AWS Infra**
+### 1. **TF AWS Infra** [Link](https://github.com/Shreyas-Kothari/tf-aws-infra)
 The **TF AWS Infra** repository is dedicated to managing the cloud infrastructure required to run the CSYE 6225 web application. Using Infrastructure as Code (IaC) with **Terraform**, this repository automates the deployment of all necessary AWS resources, including:
 
 - **Network Configuration**: Creates a Virtual Private Cloud (VPC) with public and private subnets.
@@ -19,7 +19,7 @@ The **TF AWS Infra** repository is dedicated to managing the cloud infrastructur
 
 The goal of this repository is to provide a scalable and secure foundation for running cloud-based web applications, enabling automated and repeatable infrastructure deployments.
 
-### 2. **WebApp**
+### 2. **WebApp** [Link](https://github.com/Shreyas-Kothari/webapp)
 The **WebApp** repository contains the source code for a Spring Boot web application designed to run seamlessly on the AWS infrastructure set up by **TF AWS Infra**. Key features of this repository include:
 
 - **Stateless Web Application**: Implements REST APIs for various functionalities using Spring Boot.
