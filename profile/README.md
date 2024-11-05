@@ -16,8 +16,11 @@ The **TF AWS Infra** repository is dedicated to managing the cloud infrastructur
 - **Compute Resources**: Deploys EC2 instances with custom AMIs tailored to run the web application.
 - **Database**: Sets up a MySQL database hosted on Amazon RDS with secure network configurations.
 - **Load Balancing and Routing**: Configures route tables, internet gateways, and load balancers for traffic management.
+- **Auto Scaling Groups**: The EC2 resources are later replaced with the templates that are used to deploy the EC2 instances using ASG where the up-scaling and down-scaling depends on the CPU Utilization metrics.
+- **CloudWatch Monitoring**: Implemented the CloudWatch monitoring to fetch the logs of the application and the custom metrics for the counter and timer of each API using StatsD.
+- **Storage System**: The AWS RDS is used to connect to the private subnet to fetch the data for the application and the S3 storage is used to save the profile pictures of the users.  
 
-The goal of this repository is to provide a scalable and secure foundation for running cloud-based web applications, enabling automated and repeatable infrastructure deployments.
+The goal of this application is to provide a scalable and secure foundation for running cloud-based web applications, enabling automated and repeatable infrastructure deployments.
 
 ### 2. **WebApp** [Link](https://github.com/Shreyas-Kothari/webapp)
 The **WebApp** repository contains the source code for a Spring Boot web application designed to run seamlessly on the AWS infrastructure set up by **TF AWS Infra**. Key features of this repository include:
@@ -32,6 +35,6 @@ This repository is responsible for delivering the application logic and services
 ## Integration
 Together, these repositories enable a fully automated and secure deployment pipeline:
 - The **TF AWS Infra** repository provisions the cloud infrastructure, creating a robust environment for the web application.
-- The **WebApp** repository contains the application code, which is packaged and deployed on the infrastructure through CI/CD workflows.
+- The **WebApp** repository contains the application code, including packer code to generate the custom AMI of the application, which is packaged and deployed on the infrastructure through CI/CD workflows.
 
 By combining Infrastructure as Code with a cloud-native web application, this project demonstrates best practices in scalable and automated cloud deployments.
