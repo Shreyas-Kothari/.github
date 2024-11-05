@@ -1,4 +1,4 @@
-# CSYE 6225 Infrastructure and Web Application Overview
+# Infrastructure and Web Application Overview
 
 ## Overview
 This organization contains two main repositories, each serving a distinct yet integrated purpose in deploying and managing a cloud-based web application:
