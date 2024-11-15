@@ -32,9 +32,13 @@ The **WebApp** repository contains the source code for a Spring Boot web applica
 
 This repository is responsible for delivering the application logic and services that interact with the cloud infrastructure set up by **TF AWS Infra**.
 
-## Integration
-Together, these repositories enable a fully automated and secure deployment pipeline:
-- The **TF AWS Infra** repository provisions the cloud infrastructure, creating a robust environment for the web application.
-- The **WebApp** repository contains the application code, including packer code to generate the custom AMI of the application, which is packaged and deployed on the infrastructure through CI/CD workflows.
+### 3. **Serverless** [Link](https://github.com/Shreyas-Kothari/serverless)
+The **Serverless** repository contains the source code for a Spring-based application designed to run seamlessly on the AWS Lambda set up by **TF AWS Infra**. The lambda function is responsible for fetching the user data passed in the SNS created by **TF AWS Infra** and, based on that data, sending mail to that user from the email ID passed in that data.
+- The email is sent to the user using Mailgun.
+- This feature is to validate and activate the user as soon as the user clicks the link sent in the mail.
 
-By combining Infrastructure as Code with a cloud-native web application, this project demonstrates best practices in scalable and automated cloud deployments.
+This repository is responsible for activating the user account/validating the email id by using the cloud services provided via **TF AWS Infra**.
+
+<hr>
+
+By combining Infrastructure as Code with a cloud-native web application and the serverless app, this project demonstrates best practices in scalable and automated cloud deployments using GitHub actions fo CI/CD.
