@@ -6,6 +6,12 @@ This organization contains two main repositories, each serving a distinct yet in
 1. **TF AWS Infra**: Handles the infrastructure setup using Terraform to manage AWS cloud resources.
 2. **WebApp**: Contains the Spring Boot web application that runs on the infrastructure provisioned by Terraform.
 
+<hr>
+
+![CSYE 6225 Architecture Diagram](https://github.com/user-attachments/assets/e5f6015f-fa24-4dce-88df-634fb11d995c)
+
+<hr>
+
 ## Repositories
 
 ### 1. **TF AWS Infra** [Link](https://github.com/Shreyas-Kothari/tf-aws-infra)
