@@ -5,6 +5,7 @@ This organization contains two main repositories, each serving a distinct yet in
 
 1. **TF AWS Infra**: Handles the infrastructure setup using Terraform to manage AWS cloud resources.
 2. **WebApp**: Contains the Spring Boot web application that runs on the infrastructure provisioned by Terraform.
+3. **Serverless**: Handles event-driven computing for email verification using AWS Lambda and Mailgun API.
 
 **Infrastructure Architecture**
 
