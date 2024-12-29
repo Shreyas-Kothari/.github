@@ -1,7 +1,7 @@
 # Infrastructure and Web Application Overview
 
 ## Overview
-This organization contains two main repositories, each serving a distinct yet integrated purpose in deploying and managing a cloud-based web application:
+This organization contains three main repositories, each serving a distinct yet integrated purpose in deploying and managing a cloud-based web application:
 
 1. **TF AWS Infra**: Handles the infrastructure setup using Terraform to manage AWS cloud resources.
 2. **WebApp**: Contains the Spring Boot web application that runs on the infrastructure provisioned by Terraform.
