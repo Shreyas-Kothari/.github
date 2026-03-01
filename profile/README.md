@@ -1,5 +1,19 @@
 # Infrastructure and Web Application Overview
 
+## Recruiter Quick View: Tech Stack & Engineering Skills
+
+| Technology / Tool | Purpose in this project | Skills demonstrated |
+| --- | --- | --- |
+| **Terraform (IaC)** | Provision AWS networking, compute, database, security, routing, and scaling resources as code. | Infrastructure design, automation, environment reproducibility, DevOps fundamentals |
+| **AWS (VPC, EC2, RDS, S3, ALB, ASG, CloudWatch, Lambda, SNS)** | Host and scale a production-style cloud application with observability and event-driven workflows. | Cloud architecture, distributed systems thinking, reliability and performance tuning |
+| **Spring Boot (Java)** | Build stateless REST APIs for core business workflows and backend services. | Backend engineering, API design, service-layer architecture |
+| **MySQL (Amazon RDS)** | Persist relational application data securely in private subnets. | Data modeling, SQL-backed application integration, secure data access |
+| **Packer** | Build custom AMIs containing application runtime dependencies. | Immutable infrastructure, image automation, deployment consistency |
+| **GitHub Actions (CI/CD)** | Run automated validation, tests, and deployment/image build pipelines. | CI/CD pipeline design, quality gates, release automation |
+| **Serverless + Mailgun** | Trigger email verification flow via Lambda and external email API integration. | Event-driven architecture, third-party API integration, async processing |
+
+> **In short:** This is an end-to-end cloud engineering project that combines **Infrastructure as Code**, **backend API development**, **serverless event processing**, and **CI/CD automation** to deliver a scalable, production-oriented system.
+
 ## Overview
 This organization contains three main repositories, each serving a distinct yet integrated purpose in deploying and managing a cloud-based web application:
 
