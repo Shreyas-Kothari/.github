@@ -1,6 +1,6 @@
 # Infrastructure and Web Application Overview
 
-## Recruiter Quick View: Tech Stack & Engineering Skills
+## Quick View: Tech Stack & Engineering Skills
 
 | Technology / Tool | Purpose in this project | Skills demonstrated |
 | --- | --- | --- |
